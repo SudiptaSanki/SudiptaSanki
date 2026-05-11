@@ -28,9 +28,9 @@ I am a Full-Stack Developer specializing in modern web architectures and a cyber
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **[Kit4PDF](https://github.com/YourUsername/Kit4PDF)** | Fast, client-side PDF manipulation tool ensuring data privacy by keeping document processing local. | `Next.js`, `Supabase`, `React` |
+| **[Certipatch](https://github.com/SudiptaSanki/Certipatch)** | A tool ensuring data privacy by keeping document processing local to send mails easily. | `Python` |
 | **[SentinHex](https://github.com/YourUsername/SentinHex)** | Local network security auditor that maps vulnerable ports and assets for threat mitigation. | `Node.js`, `Nmap` |
-| **[EngiNotesHub](https://github.com/YourUsername/EngiNotesHub)** | Educational hub with administrator panels, automated reports, and student leaderboards. | `Vite`, `Firebase` |
+| **[VerifAI](https://github.com/SudiptaSanki/VerifAI-2.0)** | A tools which uses mutiple AI searches to find if the the news is fake or not. | `Python`, `Firebase` |
 
 ---
 
