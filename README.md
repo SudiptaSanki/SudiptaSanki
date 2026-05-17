@@ -60,14 +60,13 @@ Just follow the trail of coffee cups and keyboard clicks... or contact me at [co
     <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="50" alt="Python" />
     <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50" alt="JS" />
     <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="50" alt="React" />
-    <a href="https://www.jetbrains.com/pycharm" target="_blank"><img src="./pycharm-animated.svg" width="50" alt="PyCharm" /></a>
+    <a href="https://www.jetbrains.com/pycharm" target="_blank"><img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="50" alt="PyCharm" /></a>
     <img src="./sql-animated.svg" width="50" alt="SQL" />
-    <img src="./mongodb-animated.svg" width="50" alt="MongoDB" />
+    <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="50" alt="MongoDB" />
   </p>
 
   <h3>Tools & Cloud</h3>
   <p>
-    <img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="50" alt="Git" />
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
     <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
