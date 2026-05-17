@@ -37,20 +37,26 @@
   <rect width="900" height="160" fill="url(#skyGrad)"/>
 
   <!-- Stars (static) -->
-  <circle cx="50"  cy="15" r="1" fill="white" opacity="0.8"/>
-  <circle cx="120" cy="8"  r="1.5" fill="white" opacity="0.6"/>
-  <circle cx="200" cy="20" r="1" fill="white" opacity="0.9"/>
-  <circle cx="300" cy="10" r="1" fill="white" opacity="0.7"/>
-  <circle cx="400" cy="5"  r="1.5" fill="white" opacity="0.5"/>
-  <circle cx="500" cy="18" r="1" fill="white" opacity="0.8"/>
-  <circle cx="600" cy="12" r="1" fill="white" opacity="0.6"/>
-  <circle cx="700" cy="7"  r="1.5" fill="white" opacity="0.9"/>
-  <circle cx="800" cy="15" r="1" fill="white" opacity="0.7"/>
-  <circle cx="850" cy="22" r="1" fill="white" opacity="0.5"/>
-  <circle cx="75"  cy="30" r="0.8" fill="#a0d0ff" opacity="0.6"/>
-  <circle cx="250" cy="35" r="0.8" fill="#a0d0ff" opacity="0.5"/>
-  <circle cx="450" cy="28" r="0.8" fill="#a0d0ff" opacity="0.7"/>
-  <circle cx="650" cy="33" r="0.8" fill="#a0d0ff" opacity="0.6"/>
+  <circle cx="50"  cy="25" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="120" cy="15" r="2" fill="white" opacity="0.6"/>
+  <circle cx="200" cy="40" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="300" cy="20" r="2" fill="white" opacity="0.7"/>
+  <circle cx="400" cy="15" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="500" cy="38" r="2" fill="white" opacity="0.8"/>
+  <circle cx="600" cy="22" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="700" cy="17" r="2.5" fill="white" opacity="0.9"/>
+  <circle cx="800" cy="25" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="850" cy="42" r="2" fill="white" opacity="0.5"/>
+  <circle cx="75"  cy="60" r="1.2" fill="#a0d0ff" opacity="0.6"/>
+  <circle cx="250" cy="75" r="1.2" fill="#a0d0ff" opacity="0.5"/>
+  <circle cx="450" cy="58" r="1.2" fill="#a0d0ff" opacity="0.7"/>
+  <circle cx="650" cy="63" r="1.2" fill="#a0d0ff" opacity="0.6"/>
+  
+  <!-- Planet -->
+  <circle cx="800" cy="40" r="20" fill="#e0e0ff" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="805" cy="35" r="5" fill="#c0c0e0" opacity="0.5"/>
+  <circle cx="790" cy="45" r="3" fill="#c0c0e0" opacity="0.5"/>
+  <circle cx="795" cy="30" r="4" fill="#c0c0e0" opacity="0.5"/>
 
   <!-- Road surface -->
   <rect x="0" y="110" width="900" height="50" fill="url(#roadGrad)"/>
@@ -87,21 +93,21 @@
   <!-- ===================== EXPLOSION PARTICLES ===================== -->
   <!-- Hit 1 explosion at ~x=280, t=3.5s -->
   <g opacity="0">
-    <circle cx="280" cy="118" r="3" fill="#ff6600"/>
-    <circle cx="270" cy="112" r="2" fill="#ffaa00"/>
-    <circle cx="290" cy="110" r="2" fill="#ff3300"/>
-    <circle cx="265" cy="120" r="2" fill="#ffdd00"/>
-    <circle cx="295" cy="122" r="2" fill="#ff6600"/>
-    <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.32;0.36;0.42" dur="10s" repeatCount="indefinite"/>
+    <circle cx="280" cy="115" r="15" fill="#ff4400" filter="url(#glow)"/>
+    <circle cx="270" cy="105" r="10" fill="#ffaa00"/>
+    <circle cx="295" cy="110" r="12" fill="#ff3300"/>
+    <circle cx="260" cy="125" r="8" fill="#ffdd00"/>
+    <circle cx="300" cy="125" r="10" fill="#ff6600"/>
+    <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.33;0.35;0.42" dur="10s" repeatCount="indefinite"/>
   </g>
   <!-- Hit 2 explosion at ~x=520, t=6s -->
   <g opacity="0">
-    <circle cx="520" cy="118" r="3" fill="#ff6600"/>
-    <circle cx="510" cy="110" r="2" fill="#ffaa00"/>
-    <circle cx="530" cy="112" r="2" fill="#ff3300"/>
-    <circle cx="505" cy="120" r="2" fill="#ffdd00"/>
-    <circle cx="535" cy="122" r="2" fill="#ff6600"/>
-    <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.55;0.58;0.64" dur="10s" repeatCount="indefinite"/>
+    <circle cx="520" cy="115" r="15" fill="#ff4400" filter="url(#glow)"/>
+    <circle cx="505" cy="105" r="10" fill="#ffaa00"/>
+    <circle cx="535" cy="110" r="12" fill="#ff3300"/>
+    <circle cx="500" cy="125" r="8" fill="#ffdd00"/>
+    <circle cx="540" cy="125" r="10" fill="#ff6600"/>
+    <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.55;0.57;0.64" dur="10s" repeatCount="indefinite"/>
   </g>
 
   <!-- ===================== SPACESHIP 1 ===================== -->
@@ -134,8 +140,8 @@
       <animate attributeName="opacity" values="1;0.3;1" dur="0.4s" repeatCount="indefinite"/>
     </circle>
     <!-- Laser beam (fires down when attacking) -->
-    <rect x="-1" y="5" width="2" height="30" fill="#FF4444" opacity="0">
-      <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.3;0.33;0.36;0.4" dur="10s" repeatCount="indefinite"/>
+    <rect x="-2" y="5" width="4" height="175" fill="#FF4444" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.31;0.33;0.36;0.4" dur="10s" repeatCount="indefinite"/>
     </rect>
   </g>
 
@@ -169,87 +175,78 @@
       <animate attributeName="opacity" values="1;0;1" dur="0.5s" repeatCount="indefinite"/>
     </circle>
     <!-- Laser beam -->
-    <rect x="-1" y="5" width="2" height="30" fill="#FF00FF" opacity="0">
-      <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.52;0.55;0.58;0.62" dur="10s" repeatCount="indefinite"/>
+    <rect x="-2" y="5" width="4" height="175" fill="#FF00FF" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.53;0.55;0.58;0.62" dur="10s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <!-- ===================== RACING CAR ===================== -->
   <g id="raceCar" filter="url(#carGlow)">
-    <!-- Car moves from left (-80) to finish line (840), takes 8s, then pauses for trophy -->
+    <!-- Car moves from left (-80) to finish line (840) -->
     <animateTransform attributeName="transform" type="translate"
       values="-80,0; 780,0; 830,0"
       keyTimes="0; 0.82; 1"
       dur="10s" repeatCount="indefinite" calcMode="spline"
       keySplines="0.2 0 0.8 1; 0.2 0 0.8 1"/>
 
+    <!-- Speed lines (disappear near finish) -->
+    <line x1="-65" y1="115" x2="-95" y2="115" stroke="#6A5ACD" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-75" y1="119" x2="-105" y2="119" stroke="#A78BFA" stroke-width="1" opacity="0.4"/>
+    <line x1="-60" y1="123" x2="-90" y2="123" stroke="#6A5ACD" stroke-width="1.5" opacity="0.6"/>
+
     <!-- Exhaust fire (rear) -->
-    <ellipse cx="-36" cy="121" rx="10" ry="5" fill="#FF6600" opacity="0.7">
+    <ellipse cx="-45" cy="120" rx="10" ry="5" fill="#FF6600" opacity="0.7">
       <animate attributeName="rx" values="10;14;8;12;10" dur="0.15s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="-44" cy="121" rx="7" ry="4" fill="#FFAA00" opacity="0.6">
+    <ellipse cx="-55" cy="120" rx="7" ry="4" fill="#FFAA00" opacity="0.6">
       <animate attributeName="rx" values="7;10;5;9;7" dur="0.2s" repeatCount="indefinite"/>
     </ellipse>
 
-    <!-- Car body - main (low, sleek F1 style) -->
-    <rect x="-30" y="112" width="65" height="16" rx="4" fill="#6A5ACD"/>
-    <!-- Car nose -->
-    <polygon points="-30,115 -30,124 -50,120" fill="#8B5CF6"/>
-    <!-- Cockpit/canopy -->
-    <ellipse cx="10" cy="112" rx="14" ry="6" fill="#38BDF8" opacity="0.85"/>
-    <!-- Car top fin -->
-    <rect x="5" y="106" width="4" height="10" rx="1" fill="#A78BFA"/>
-    <!-- Front wing -->
-    <rect x="-52" y="122" width="18" height="3" rx="1" fill="#7C3AED"/>
     <!-- Rear wing -->
-    <rect x="30" y="108" width="18" height="3" rx="1" fill="#7C3AED"/>
-    <rect x="30" y="108" width="3" height="8" fill="#5B21B6"/>
-    <rect x="45" y="108" width="3" height="8" fill="#5B21B6"/>
+    <rect x="-35" y="103" width="16" height="4" rx="1" fill="#7C3AED"/>
+    <rect x="-30" y="107" width="4" height="10" fill="#5B21B6"/>
+    <rect x="-22" y="107" width="4" height="10" fill="#5B21B6"/>
 
-    <!-- Wheels -->
-    <!-- Front left -->
-    <circle cx="-26" cy="129" r="8" fill="#111"/>
-    <circle cx="-26" cy="129" r="5" fill="#333"/>
-    <circle cx="-26" cy="129" r="2" fill="#6A5ACD">
-      <animateTransform attributeName="transform" type="rotate" from="0,-26,129" to="360,-26,129" dur="0.3s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Front right -->
-    <circle cx="10" cy="129"  r="8" fill="#111"/>
-    <circle cx="10" cy="129"  r="5" fill="#333"/>
-    <circle cx="10" cy="129"  r="2" fill="#6A5ACD">
-      <animateTransform attributeName="transform" type="rotate" from="0,10,129" to="360,10,129" dur="0.3s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Rear left -->
-    <circle cx="28" cy="129"  r="9" fill="#111"/>
-    <circle cx="28" cy="129"  r="6" fill="#333"/>
-    <circle cx="28" cy="129"  r="2.5" fill="#6A5ACD">
-      <animateTransform attributeName="transform" type="rotate" from="0,28,129" to="360,28,129" dur="0.28s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Rear right -->
-    <circle cx="-45" cy="129" r="9" fill="#111"/>
-    <circle cx="-45" cy="129" r="6" fill="#333"/>
-    <circle cx="-45" cy="129" r="2.5" fill="#6A5ACD">
-      <animateTransform attributeName="transform" type="rotate" from="0,-45,129" to="360,-45,129" dur="0.28s" repeatCount="indefinite"/>
-    </circle>
+    <!-- Car body - main (low, sleek F1 style) -->
+    <rect x="-35" y="112" width="70" height="15" rx="4" fill="#6A5ACD"/>
+    <!-- Car nose -->
+    <polygon points="30,115 30,126 55,123" fill="#8B5CF6"/>
+    
+    <!-- Front wing -->
+    <rect x="35" y="123" width="22" height="4" rx="1" fill="#7C3AED"/>
 
+    <!-- Cockpit/canopy -->
+    <ellipse cx="-5" cy="111" rx="16" ry="7" fill="#38BDF8" opacity="0.85"/>
     <!-- Driver helmet -->
-    <circle cx="10" cy="110" r="5" fill="#FFD700"/>
-    <circle cx="10" cy="110" r="3.5" fill="#FF6B35"/>
+    <circle cx="-5" cy="108" r="5" fill="#FFD700"/>
+    <circle cx="-3" cy="108" r="3" fill="#FF6B35"/>
     <!-- Car number -->
-    <text x="-8" y="124" font-family="monospace" font-size="9" fill="white" font-weight="bold">01</text>
+    <text x="-15" y="124" font-family="monospace" font-size="9" fill="white" font-weight="bold">01</text>
+    
+    <!-- Car top airbox/fin -->
+    <polygon points="-12,110 -15,100 -5,100 -5,110" fill="#A78BFA"/>
+
+    <!-- Wheels (Just 2 main wheels for side profile) -->
+    <!-- Front wheel -->
+    <circle cx="28" cy="127" r="10" fill="#111"/>
+    <circle cx="28" cy="127" r="6" fill="#333"/>
+    <circle cx="28" cy="127" r="3" fill="#6A5ACD">
+      <animateTransform attributeName="transform" type="rotate" from="0,28,127" to="360,28,127" dur="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Rear wheel -->
+    <circle cx="-22" cy="127"  r="11" fill="#111"/>
+    <circle cx="-22" cy="127"  r="7" fill="#333"/>
+    <circle cx="-22" cy="127"  r="3.5" fill="#6A5ACD">
+      <animateTransform attributeName="transform" type="rotate" from="0,-22,127" to="360,-22,127" dur="0.2s" repeatCount="indefinite"/>
+    </circle>
 
     <!-- Hit damage flash (appears at hit timings) -->
-    <rect x="-55" y="104" width="90" height="32" rx="4" fill="#FF4400" opacity="0">
+    <rect x="-40" y="100" width="100" height="35" rx="4" fill="#FF4400" opacity="0">
       <animate attributeName="opacity"
         values="0;0;0.5;0;0;0;0.5;0;0"
         keyTimes="0;0.32;0.34;0.38;0.54;0.56;0.58;0.62;1"
         dur="10s" repeatCount="indefinite"/>
     </rect>
-
-    <!-- Speed lines (disappear near finish) -->
-    <line x1="-70" y1="115" x2="-90" y2="115" stroke="#6A5ACD" stroke-width="1.5" opacity="0.6"/>
-    <line x1="-70" y1="119" x2="-95" y2="119" stroke="#A78BFA" stroke-width="1" opacity="0.4"/>
-    <line x1="-70" y1="123" x2="-90" y2="123" stroke="#6A5ACD" stroke-width="1.5" opacity="0.6"/>
   </g>
 
   <!-- ===================== TROPHY (appears after finish) ===================== -->

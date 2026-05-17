@@ -43,11 +43,10 @@ Just follow the trail of coffee cups and keyboard clicks... or contact me at [co
 ## 🛡️ Projects & Highlights
 
 <ul>
-  <li><strong><a href="https://github.com/SudiptaSanki/SentinHex">SentinHex</a></strong> (TypeScript) — Local network asset mapper and security auditor built with Node.js and Nmap.</li>
-  <li><strong>The BlackHex</strong> — Managing and growing a cybersecurity-focused Discord community.</li>
-  <li><strong><a href="https://github.com/SudiptaSanki/VerifAI-2.0">VerifAI</a></strong> (HTML/Python) — AI-assisted fake news verification tool using Python and Firebase.</li>
-  <li><strong><a href="https://github.com/SudiptaSanki/Apex-Response">Apex-Response</a></strong> (JavaScript) — Emergency response coordination system.</li>
-  <li><strong><a href="https://github.com/SudiptaSanki/LearnerHQ">LearnerHQ</a></strong> (HTML) — Comprehensive tools and resources for learners on their journey.</li>
+  <li><strong><a href="https://github.com/SudiptaSanki/SentinHex">SentinHex</a></strong> — Local network asset mapper and security auditor built with Node.js and Nmap.</li>
+  <li><strong><a href="https://github.com/SudiptaSanki/VerifAI-2.0">VerifAI 2.0</a></strong> — AI-assisted fake news verification tool using Python and Firebase.</li>
+  <li><strong><a href="https://github.com/SudiptaSanki/Certipatch">Certipatch</a></strong> — Web app to help event organizers send PDF certificates.</li>
+  <li><strong><a href="https://github.com/SudiptaSanki/Apex-Response">Apex-Response</a></strong> — Emergency response coordination system.</li>
 </ul>
 
 ---
@@ -55,28 +54,26 @@ Just follow the trail of coffee cups and keyboard clicks... or contact me at [co
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <!-- Core Web Languages -->
-  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50" alt="JavaScript" />
-  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="50" alt="Python" />
+  <h3>Languages & Frameworks</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <a href="https://www.jetbrains.com/pycharm" target="_blank"><img src="https://img.shields.io/badge/PyCharm-000000.svg?style=for-the-badge&logo=PyCharm&logoColor=white" alt="PyCharm" /></a>
+    <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  </p>
 
-  <!-- Editors / IDE -->
-  <img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="50" alt="VS Code" />
-
-  <!-- Frameworks -->
-  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="50" alt="Node.js" />
-  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="50" alt="React" />
-  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50" alt="Bootstrap" />
-
-  <!-- Tools -->
-  <img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf8-ff286ab55472.gif" width="50" alt="Git" />
-  <img src="https://user-images.githubusercontent.com/74038190/212280823-79088828-a258-4a4d-8d6c-96315d5a07af.gif" width="50" alt="Express.js" />
-
-  <!-- Core Web Standards -->
-  <img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="50" alt="HTML5" />
-  <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="50" alt="CSS3" />
-
-  <!-- Hosting / Backend -->
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="50" alt="Ubuntu" />
+  <h3>Tools & Cloud</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
+    <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+    <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary" />
+  </p>
 </div>
 
 ---
@@ -126,44 +123,12 @@ Just follow the trail of coffee cups and keyboard clicks... or contact me at [co
     <td><strong><a href="https://github.com/SudiptaSanki/VerifAI-2.0">VerifAI 2.0</a></strong> — AI-powered fake news verification tool built with Python and Firebase. <code>HTML · Python</code></td>
   </tr>
   <tr>
-    <td align="center">⚡</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/Apex-Response">Apex-Response</a></strong> — Emergency response coordination platform. <code>JavaScript</code></td>
-  </tr>
-  <tr>
     <td align="center">📨</td>
     <td><strong><a href="https://github.com/SudiptaSanki/Certipatch">Certipatch</a></strong> — Web app to help event organizers send PDF certificates to participants instantly. <code>Python</code></td>
   </tr>
   <tr>
-    <td align="center">📚</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/LearnerHQ">LearnerHQ</a></strong> — Comprehensive tools and resources for learners on their journey. <code>HTML</code></td>
-  </tr>
-  <tr>
-    <td align="center">🔵</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/ClarityAI-extension-Dark-Mode-Theme">ClarityAI Dark Theme</a></strong> — Dark mode browser extension theme for ClarityAI. <code>JavaScript</code></td>
-  </tr>
-  <tr>
-    <td align="center">☀️</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/ClarityAI-Light-Mode-Theme">ClarityAI Light Theme</a></strong> — Light mode browser extension theme for ClarityAI. <code>JavaScript</code></td>
-  </tr>
-  <tr>
-    <td align="center">⛓️</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/Stellar-project">Stellar Project</a></strong> — Stellar Wallet Blockchain basics explorer. <code>JavaScript</code></td>
-  </tr>
-  <tr>
-    <td align="center">📋</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/Kanban-Board">Kanban Board</a></strong> — Drag-and-drop task management Kanban board. <code>JavaScript</code></td>
-  </tr>
-  <tr>
-    <td align="center">🌐</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/Porfolio-Builder">Portfolio Builder</a></strong> — Build your own portfolio website from beautiful templates. <code>HTML</code></td>
-  </tr>
-  <tr>
-    <td align="center">📖</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/VerifAI">VerifAI v1</a></strong> — Original AI news detector — the project that started it all. <code>HTML</code></td>
-  </tr>
-  <tr>
-    <td align="center">💻</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/C-Programming">C Programming</a></strong> — Open-source C programming reference covering basics through advanced DSA. <code>C</code></td>
+    <td align="center">⚡</td>
+    <td><strong><a href="https://github.com/SudiptaSanki/Apex-Response">Apex-Response</a></strong> — Emergency response coordination platform. <code>JavaScript</code></td>
   </tr>
 </table>
 
