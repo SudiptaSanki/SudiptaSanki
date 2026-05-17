@@ -203,17 +203,17 @@
     </ellipse>
 
     <!-- Rear wing -->
-    <rect x="-35" y="103" width="16" height="4" rx="1" fill="#7C3AED"/>
-    <rect x="-30" y="107" width="4" height="10" fill="#5B21B6"/>
-    <rect x="-22" y="107" width="4" height="10" fill="#5B21B6"/>
+    <rect x="-35" y="103" width="16" height="4" rx="1" fill="#E60000"/>
+    <rect x="-30" y="107" width="4" height="10" fill="#990000"/>
+    <rect x="-22" y="107" width="4" height="10" fill="#990000"/>
 
     <!-- Car body - main (low, sleek F1 style) -->
-    <rect x="-35" y="112" width="70" height="15" rx="4" fill="#6A5ACD"/>
+    <rect x="-35" y="112" width="70" height="15" rx="4" fill="#CC0000"/>
     <!-- Car nose -->
-    <polygon points="30,115 30,126 55,123" fill="#8B5CF6"/>
+    <polygon points="30,115 30,126 55,123" fill="#FF3333"/>
     
     <!-- Front wing -->
-    <rect x="35" y="123" width="22" height="4" rx="1" fill="#7C3AED"/>
+    <rect x="35" y="123" width="22" height="4" rx="1" fill="#E60000"/>
 
     <!-- Cockpit/canopy -->
     <ellipse cx="-5" cy="111" rx="16" ry="7" fill="#38BDF8" opacity="0.85"/>
@@ -224,19 +224,19 @@
     <text x="-15" y="124" font-family="monospace" font-size="9" fill="white" font-weight="bold">01</text>
     
     <!-- Car top airbox/fin -->
-    <polygon points="-12,110 -15,100 -5,100 -5,110" fill="#A78BFA"/>
+    <polygon points="-12,110 -15,100 -5,100 -5,110" fill="#FF6666"/>
 
     <!-- Wheels (Just 2 main wheels for side profile) -->
     <!-- Front wheel -->
     <circle cx="28" cy="127" r="10" fill="#111"/>
     <circle cx="28" cy="127" r="6" fill="#333"/>
-    <circle cx="28" cy="127" r="3" fill="#6A5ACD">
+    <circle cx="28" cy="127" r="3" fill="#CC0000">
       <animateTransform attributeName="transform" type="rotate" from="0,28,127" to="360,28,127" dur="0.2s" repeatCount="indefinite"/>
     </circle>
     <!-- Rear wheel -->
     <circle cx="-22" cy="127"  r="11" fill="#111"/>
     <circle cx="-22" cy="127"  r="7" fill="#333"/>
-    <circle cx="-22" cy="127"  r="3.5" fill="#6A5ACD">
+    <circle cx="-22" cy="127"  r="3.5" fill="#CC0000">
       <animateTransform attributeName="transform" type="rotate" from="0,-22,127" to="360,-22,127" dur="0.2s" repeatCount="indefinite"/>
     </circle>
 

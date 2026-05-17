@@ -24,7 +24,7 @@
 👋 **Hey there! Welcome to my GitHub!**
 
 🔧 **What am I building?**
-Maybe it's an app 📱, maybe it's an AI bot 🤖, or maybe I'm just coding my way out of a coffee shortage ☕. You'll have to stick around to find out! 😜
+Maybe it's a web app 🌐, maybe it's an AI bot 🤖, or maybe I'm just coding my way out of a coffee shortage ☕. You'll have to stick around to find out! 😜
 
 💻 **What languages do I speak?**
 Mostly Java, Go, JavaScript and Python, but I'm fluent in bug-fixing 🐛, stack overflow scrolls 🖱️, and lots of Google-fu 🥋.
@@ -56,13 +56,13 @@ Just follow the trail of coffee cups and keyboard clicks... or contact me at [co
 <div align="center">
   <h3>Languages & Frameworks</h3>
   <p>
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+    <img src="./java-animated.svg" width="50" alt="Java" />
     <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="50" alt="Python" />
     <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50" alt="JS" />
     <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="50" alt="React" />
-    <a href="https://www.jetbrains.com/pycharm" target="_blank"><img src="https://img.shields.io/badge/PyCharm-000000.svg?style=for-the-badge&logo=PyCharm&logoColor=white" alt="PyCharm" /></a>
-    <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    <a href="https://www.jetbrains.com/pycharm" target="_blank"><img src="./pycharm-animated.svg" width="50" alt="PyCharm" /></a>
+    <img src="./sql-animated.svg" width="50" alt="SQL" />
+    <img src="./mongodb-animated.svg" width="50" alt="MongoDB" />
   </p>
 
   <h3>Tools & Cloud</h3>
@@ -143,11 +143,11 @@ Just follow the trail of coffee cups and keyboard clicks... or contact me at [co
   <a href="https://discord.gg/ZkbemYq3Pw" target="_blank">
     <img src="https://user-images.githubusercontent.com/74038190/235294015-47144047-25ab-417c-af1b-6746820a20ff.gif" width="60" alt="Discord animated"/>
   </a>
-  <a href="mailto:contactssudiptasanki@gmail.com">
-    <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="60" alt="Email animated"/>
-  </a>
   <a href="https://www.instagram.com/sudiptasanki" target="_blank">
-    <img src="./instagram-animated.svg" width="60" alt="Instagram animated"/>
+    <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="60" alt="Instagram animated"/>
+  </a>
+  <a href="mailto:contactssudiptasanki@gmail.com">
+    <img src="./email-animated.svg" width="60" alt="Email animated"/>
   </a>
   <a href="https://x.com/SudiptaSanki" target="_blank">
     <img src="./x-animated.svg" width="60" alt="X / Twitter animated"/>

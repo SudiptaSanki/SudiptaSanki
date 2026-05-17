@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50" height="50">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#ED8B00" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)" fill="#ED8B00">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="2s" repeatCount="indefinite" />
+    <g transform="translate(10, 10) scale(0.8)">
+      <path d="M50 80 C 20 80, 20 40, 50 40 C 80 40, 80 80, 50 80 Z" fill="none" stroke="#ED8B00" stroke-width="8"/>
+      <path d="M80 50 C 95 50, 95 70, 80 70" fill="none" stroke="#ED8B00" stroke-width="8" stroke-linecap="round"/>
+      <path d="M40 30 C 35 20, 45 10, 40 0" fill="none" stroke="#ED8B00" stroke-width="4" stroke-linecap="round">
+        <animate attributeName="d" values="M40 30 C 35 20, 45 10, 40 0; M40 30 C 45 20, 35 10, 40 0; M40 30 C 35 20, 45 10, 40 0" dur="2s" repeatCount="indefinite" />
+      </path>
+      <path d="M60 30 C 55 20, 65 10, 60 0" fill="none" stroke="#ED8B00" stroke-width="4" stroke-linecap="round">
+        <animate attributeName="d" values="M60 30 C 65 20, 55 10, 60 0; M60 30 C 55 20, 65 10, 60 0; M60 30 C 65 20, 55 10, 60 0" dur="2s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+</svg>
