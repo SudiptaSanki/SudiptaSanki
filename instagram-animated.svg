@@ -1,0 +1,27 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .pulse {
+            animation: pulse 2s infinite;
+            transform-origin: center;
+        }
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+    </style>
+    <defs>
+        <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f09433" />
+            <stop offset="25%" stop-color="#e6683c" />
+            <stop offset="50%" stop-color="#dc2743" />
+            <stop offset="75%" stop-color="#cc2366" />
+            <stop offset="100%" stop-color="#bc1888" />
+        </linearGradient>
+    </defs>
+    <g class="pulse">
+        <rect x="5" y="5" width="50" height="50" rx="12" fill="url(#igGrad)" />
+        <path d="M30 18C23.373 18 18 23.373 18 30C18 36.627 23.373 42 30 42C36.627 42 42 36.627 42 30C42 23.373 36.627 18 30 18ZM30 38C25.582 38 22 34.418 22 30C22 25.582 25.582 22 30 22C34.418 22 38 25.582 38 30C38 34.418 34.418 38 30 38ZM39.5 23C39.5 24.38 38.38 25.5 37 25.5C35.62 25.5 34.5 24.38 34.5 23C34.5 21.62 35.62 20.5 37 20.5C38.38 20.5 39.5 21.62 39.5 23Z" fill="white"/>
+        <rect x="14" y="14" width="32" height="32" rx="8" fill="none" stroke="white" stroke-width="3"/>
+    </g>
+</svg>

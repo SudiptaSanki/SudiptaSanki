@@ -1,0 +1,4 @@
+node_modules/
+.env
+TechUsed.txt
+make_svg.py

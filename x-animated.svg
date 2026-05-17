@@ -1,0 +1,16 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .spin {
+            animation: spin 4s linear infinite;
+            transform-origin: center;
+        }
+        @keyframes spin {
+            0% { transform: rotateY(0deg); }
+            100% { transform: rotateY(360deg); }
+        }
+    </style>
+    <g class="spin">
+        <circle cx="30" cy="30" r="25" fill="#000000" />
+        <path d="M37.5 18H41.5L32 29.5L43.5 44H34L26.5 34.5L18 44H14L24 32L13 18H23L29.5 27L37.5 18ZM35.5 41.5H38L21 20.5H18.5L35.5 41.5Z" fill="white"/>
+    </g>
+</svg>
