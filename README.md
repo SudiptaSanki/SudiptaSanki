@@ -1,3 +1,4 @@
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=6A5ACD&size=35&center=true&vCenter=true&width=1000&lines=Welcome+to+my+GitHub!;I'm+Sudipta+Sanki;Full+Stack+Developer+%7C+Cybersecurity+Enthusiast;Hackathon+Builder;Turning+Coffee+into+Code+%E2%98%95)](https://git.io/typing-svg)
 
 <h3 align="center">Full Stack Developer | Cybersecurity Enthusiast | Secure Systems Builder</h3>
