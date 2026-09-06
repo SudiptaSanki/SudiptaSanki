@@ -111,29 +111,6 @@ Just follow the trail of coffee cups and keyboard clicks... or contact me at [co
 
 ---
 
-## 🗂️ Open Source Projects
-
-<table align="center">
-  <tr>
-    <td align="center">🛡️</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/SentinHex">SentinHex</a></strong> — Local network security auditor that maps vulnerable ports and assets for threat mitigation. <code>TypeScript</code></td>
-  </tr>
-  <tr>
-    <td align="center">🤖</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/VerifAI-2.0">VerifAI 2.0</a></strong> — AI-powered fake news verification tool built with Python and Firebase. <code>HTML · Python</code></td>
-  </tr>
-  <tr>
-    <td align="center">📨</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/Certipatch">Certipatch</a></strong> — Web app to help event organizers send PDF certificates to participants instantly. <code>Python</code></td>
-  </tr>
-  <tr>
-    <td align="center">⚡</td>
-    <td><strong><a href="https://github.com/SudiptaSanki/Apex-Response">Apex-Response</a></strong> — Emergency response coordination platform. <code>JavaScript</code></td>
-  </tr>
-</table>
-
----
-
 ## 🌐 Connect
 
 <p align="center">
